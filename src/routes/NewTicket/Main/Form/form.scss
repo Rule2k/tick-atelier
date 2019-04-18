@@ -1,0 +1,53 @@
+#new-ticket-main-form {
+   &-bottom {
+    font-weight: 700;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: #FFFDD8;
+    margin-top: 2em;
+    &-tag-priority{
+      display:flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    &-buttons {
+      display: flex;
+      justify-content: space-around;
+      &-cancel {
+      color: #FFFDD8;
+      background-color: #C1272D;
+      border: none;
+      padding: 1em;
+      border-radius: 1em;
+      font-weight: 700;
+      font-size: 1.3em;
+      }
+      &-submit {
+      color: #FFFDD8;
+      background-color: #078975;
+      border:none;
+      padding: 1em;
+      border-radius: 1em;
+      font-weight: 700;
+      font-size: 1.3em;
+      }
+    }
+    button {
+      margin: 1em;
+    }
+    &-tagsandpriority {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+  }
+}
+
+.error-input {
+  box-shadow:inset 0px 0px 0px 2px #C1272D !important;
+  &::placeholder {
+    color: #C1272D !important;
+  }
+}

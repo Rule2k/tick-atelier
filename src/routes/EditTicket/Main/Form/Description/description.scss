@@ -1,0 +1,24 @@
+#edit-ticket-main-form-description {
+  color: #32373C;
+  width: 90%;
+  margin: auto;
+  margin-top: 1em;
+  border-radius: 1.5rem;
+  height: 20em;
+  display:flex;
+  align-items: center;
+    &-input {
+    width: 100%;
+    height: 20em;
+    border-radius: 1em;
+    padding: 1em;
+    background-color: #FFFDD8;
+    color: #32373C;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+      &::placeholder {
+        font-style: italic;
+        font-family: 'Open Sans', sans-serif;
+      }
+    }
+  }

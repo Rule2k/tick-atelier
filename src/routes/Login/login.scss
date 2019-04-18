@@ -1,0 +1,69 @@
+.login {
+  &-container {
+    border-radius: 0.5em;
+    opacity:0.2;
+    background-image: url('./image-tick.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: blur(8px);
+    border: 0.5em;
+    height: 67vh;
+    color: transparent;
+    &-div {
+      position: fixed;
+      top: 22em;
+      // left: 2em;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      text-align: center;
+      &-button {
+        padding: 1.5em;
+        border-radius: 0.5em;
+        width: 20rem;
+        background-color: #C1272D;
+        display: block;
+        color:#FFFDD8;
+        font-weight: 700;
+        font-size: 2em;
+      }
+  }
+  }
+}
+#header-mobile-top-logo {
+  margin-top: 3em;
+  margin-bottom: 2em;
+  font-weight: 700;
+  font-size: 1.1em;
+  text-align: center;
+  &-span {
+    padding: 0.3em 1em;
+  }
+
+}
+.login-mobile {
+  &-container {
+    border-radius: 0.5em;
+    height: 80vh;
+    &-div {
+      margin-top: 13rem;
+      margin-bottom: 16rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      text-align: center;
+      &-button {
+        padding: 1.5em;
+        border-radius: 0.5em;
+        width: 12rem;
+        background-color: #C1272D;
+        display: block;
+        color:#FFFDD8;
+        font-weight: 700;
+        font-size: 1.2em;
+      }
+  }
+  }
+}

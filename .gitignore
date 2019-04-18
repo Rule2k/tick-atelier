@@ -1,0 +1,29 @@
+# front
+node_modules/
+dist/
+.vs/
+.vs-code/
+
+.DS_Store
+Thumbs.db
+
+yarn-error.log
+
+###> symfony/framework-bundle ###
+backend/.env
+backend/.env.local
+backend/.env.local.php
+backend/.env.*.local
+backend/public/bundles/
+backend/var/
+backend/vendor/
+###< symfony/framework-bundle ###
+
+###> symfony/phpunit-bridge ###
+backend/.phpunit
+backend/phpunit.xml
+###< symfony/phpunit-bridge ###
+
+###> symfony/web-server-bundle ###
+backend/.web-server-pid
+###< symfony/web-server-bundle ###

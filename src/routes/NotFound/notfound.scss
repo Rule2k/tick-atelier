@@ -1,0 +1,25 @@
+#main-404 {
+  width: 1000px;
+  margin: auto;
+  text-align: center;
+  background-color: #0BD2B3;
+  border-radius: 1rem;
+  padding: 2em 0em;
+  color: #32373C;
+  &-title {
+    font-weight: 700;
+    font-size: 7em;
+    color: #FFFDD8;
+    padding-bottom: .5em;
+  }
+  &-desc {
+    padding: 0 2em 3em 2em;
+  }
+  a {
+    & #main-404-desc {
+      padding: 0;
+      font-weight: 700;
+      color: #FFFDD8
+    }
+  }
+}

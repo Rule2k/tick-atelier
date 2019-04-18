@@ -1,0 +1,14 @@
+#footer-backoffice-addpromo {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  text-align: center;
+  margin-top: 2em;
+  &-items {
+    border-top: 1pt solid #FFFDD8;
+    font-style: italic;
+    font-size: .9em;
+    padding-top: 2em;
+    margin: 2em;
+  }
+}

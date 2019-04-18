@@ -1,0 +1,32 @@
+#backoffice-addpromo-form {
+ display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: 700;
+  background-color: #0BD2B3;
+  border-radius: 1rem;
+  padding: 2rem 0;
+  text-align: center;
+  &-button {
+     color: #FFFDD8;
+    background-color: #C1272D;
+    padding: 1em;
+    border-radius: 1em;
+    font-weight: 700;
+    font-size: 1.3em;
+    margin: 1em auto;
+    border: none;
+  }
+}
+
+.backoffice-addpromo-form{
+  &-input{
+    width: 50%;
+    margin: 1em auto;
+    margin-left: 2rem;
+    text-indent: 15px;
+    border-radius: 1rem;
+    background-color: #FFFDD8;
+    border: none;
+  }
+}

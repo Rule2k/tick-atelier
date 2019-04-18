@@ -1,0 +1,39 @@
+#new-ticket-main-form-bottom-tagsandpriority-tags {
+  margin-right: 4em;
+}
+
+.new-ticket-tags {
+  margin: 0.5em;
+  display: flex;
+  align-items: center;
+  & input {
+    appearance: none;
+    border-radius: 5px;
+    background-color: #FFFDD8;
+    width: 2em;
+    height: 2em;
+    margin-right: 1em;
+    &:checked {
+      background-color: #32373C;
+      position: relative;
+      &:before {
+        content: '✔';
+        position: absolute;
+        top: 0;
+        left: 0;
+        font-size: 2em;
+        color: #FFFDD8;
+      }
+    }
+    &:hover {
+      transition: all .5s;
+    }
+  }
+}
+
+.error-input-tags {
+  color: #C1272D;
+  & input {
+    box-shadow:inset 0px 0px 0px 2px #C1272D !important;
+  }
+}

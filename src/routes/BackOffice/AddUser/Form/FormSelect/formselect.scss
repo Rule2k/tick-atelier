@@ -1,0 +1,13 @@
+.backoffice-adduser-form-select-single{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    justify-content: center;
+    &-global {
+      background-color: #FFFDD8;
+    }
+    &-title{
+      margin-right: 1rem;
+    }
+  }
+

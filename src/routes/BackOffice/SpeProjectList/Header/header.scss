@@ -1,0 +1,20 @@
+#backoffice-addspe-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  align-items: center;
+  margin-top: 1em;
+}
+
+.backoffice-addspe-header {
+  &-button {
+    color: #FFFDD8;
+    background-color: #C1272D;
+    padding: 1em;
+    border-radius: 1em;
+    font-weight: 700;
+    font-size: 1.3em;
+    margin: 1em auto;
+    border: none;
+  }
+}

@@ -1,0 +1,19 @@
+#new-ticket-main-form-bottom-tagsandpriority {
+  &-priority {
+    &-select {
+    font-weight: 700;
+    text-align: center;
+    font-size: 1.3em;
+    border-radius: 1rem;
+    background-color: #32373C;
+    color: #FFFDD8;
+    margin-right: 1em;
+    padding: 1em;
+    border: none;
+    & option {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    }
+    }
+  }
+}

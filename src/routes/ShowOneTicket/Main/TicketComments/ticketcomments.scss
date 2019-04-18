@@ -1,0 +1,153 @@
+#ticket-comments {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+  color: black;
+}
+
+.ticket-comment {
+  border-radius: 1rem;
+  margin: 0.5em 0 0.5em;
+  padding: 1em 1em 1em;
+  background-color:  #FFFDD8;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  &-infos {
+    text-align: right;
+    padding-bottom: 1.5em;
+    font-size: .8em;
+    font-style: italic;
+    span {
+      font-weight: 700;
+    }
+  }
+  &-edit {
+    position: absolute;
+    bottom: -10px;
+    right: -10px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    & svg {
+      overflow: visible;
+      fill: #078975;
+    }
+  }
+  &-form {
+    background-color: #FFFDD8;
+    color: #32373C;
+    width: 100%;
+    margin: auto;
+    margin-top: 0.2em;
+    align-self: baseline;
+    // margin-bottom: 1em;
+    border-radius: 1rem;
+    // height: 0.5em;
+    // display:inline;
+    &-input {
+      // text-indent: 15px;
+      font-size: 1em;
+      width: 40em;
+      border-radius: 1em;
+      border: 1px solid #078975;
+      padding: .5em;
+      background-color: #FFFDD8;
+      margin-right: 0.5em;
+      &::placeholder {
+        font-style: italic;
+    }
+  }
+    &-button {
+      margin-right: 0.5em;
+      color: #FFFDD8;
+      background-color: #C1272D;
+      border: none;
+      padding: 0.5em;
+      // margin: 1em auto;
+      border-radius: 1em;
+      font-weight: 400;
+      font-size:0.8em;
+    }
+}
+}
+
+
+//mobile
+#ticket-mobile-comments {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+  color: black;
+}
+
+.ticket-mobile-comment {
+  border-radius: 1rem;
+  margin: 0.5em 0 0.5em;
+  padding: 1em 1em 1em;
+  background-color:  #FFFDD8;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  &-infos {
+    text-align: right;
+    padding-bottom: 1.5em;
+    font-size: .8em;
+    font-style: italic;
+    span {
+      font-weight: 700;
+    }
+  }
+  &-edit {
+    position: absolute;
+    bottom: -10px;
+    right: -10px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    & svg {
+      overflow: visible;
+      fill: #078975;
+    }
+  }
+  &-form {
+    background-color: #FFFDD8;
+    color: #32373C;
+    width: 100%;
+    margin: auto;
+    margin-top: 0.2em;
+    margin-bottom: .2em;
+    align-self: baseline;
+    // margin-bottom: 1em;
+    border-radius: 1rem;
+    // height: 0.5em;
+    // display:inline;
+    &-input {
+      // text-indent: 15px;
+      font-size: 1em;
+      width: 15em;
+      border-radius: 1em;
+      border: 1px solid #078975;
+      padding: .5em;
+      background-color: #FFFDD8;
+      margin-right: 0.5em;
+      &::placeholder {
+        font-style: italic;
+    }
+  }
+    &-button {
+      margin-top: .3em;
+      margin-right: 0.5em;
+      color: #FFFDD8;
+      background-color: #C1272D;
+      border: none;
+      padding: 0.5em;
+      // margin: 1em auto;
+      border-radius: 1em;
+      font-weight: 400;
+      font-size:0.8em;
+    }
+}
+}

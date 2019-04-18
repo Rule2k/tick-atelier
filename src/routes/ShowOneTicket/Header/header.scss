@@ -1,0 +1,129 @@
+#header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 1em;
+    & a {
+      display: flex;
+      flex-direction: row;
+    }
+  &-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1em;
+    &-search-form {
+      &-input {
+        text-indent: 15px;
+        width: 40em;
+        border-radius: 1em;
+        padding: .8em;
+        background-color: #FFFDD8;
+        border: none;
+        &::placeholder {
+          font-style: italic;
+        }
+      }
+    }
+    &-logo {
+      font-weight: 700;
+      font-size: 1.5em;
+      &-span {
+        padding: 0.3em 1em;
+      }
+    }
+    &-logout {
+      font-weight: 700;
+      cursor: pointer;
+    }
+    &-notifications span {
+      font-weight: 700;
+    }
+  }
+  &-new-ticket {
+    display: flex;
+    justify-content: space-around;
+    &-button-ticket {
+      background-color: #C1272D;
+      padding: 1em;
+      border-radius: 1em;
+      font-weight: 700;
+      font-size: 1.3em;
+      margin: 1em auto;
+    }
+    &-backoffice {
+     background-color: #C1272D;
+      padding: 1em;
+      border-radius: 1em;
+      font-weight: 700;
+      font-size: 1.3em;
+      margin: 1em auto;
+    }
+  }
+}
+
+.error-input {
+  box-shadow:inset 0px 0px 0px 2px #C1272D !important;
+  &::placeholder {
+    color: #C1272D !important;
+  }
+}
+
+#header-mobile {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 1em;
+  & a {
+    display: flex;
+    flex-direction: row;
+    width: 2em;
+  }
+&-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1em;
+  &-logo {
+    font-weight: 500;
+    font-size: .8em;
+    &-span {
+      margin-left: 1.5em;
+    }
+  }
+  &-logout {
+    margin-right: 1.5em;
+    margin-top: 1.2em;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  &-notifications span {
+    font-weight: 700;
+  }
+}
+&-new-ticket {
+  display: flex;
+  justify-content: space-around;
+  width: 5em;
+  display: none;
+  &-button-ticket {
+    background-color: #C1272D;
+    padding: 0.7em;
+    border-radius: 1em;
+    font-weight: 500;
+    font-size: 1em;
+    margin: 1em auto;
+  }
+  &-backoffice {
+   background-color: #C1272D;
+    padding: 1em;
+    border-radius: 1em;
+    font-weight: 500;
+    font-size: 1em;
+    margin: 1em auto;
+  }
+}
+}
+

@@ -1,0 +1,17 @@
+#closing-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 3em;
+}
+
+#ticket-closing-button,
+#ticket-assign-button {
+  font-weight: 700;
+  padding: 1em;
+  border-radius: 1rem;
+  border: none;
+  background-color: #C1272D;
+  color: #FFFDD8;
+  font-size: 1.3em;
+}

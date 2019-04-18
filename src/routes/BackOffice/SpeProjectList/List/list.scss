@@ -1,0 +1,89 @@
+#main-backoffice{
+  &-list {
+    background-color: #0BD2B3;
+    border-radius: 1rem;
+   padding-bottom: 2em;
+   display: flex;
+   justify-content: space-around;
+  }
+}
+
+#backoffice-list {
+   &-promo {
+     margin-top: 1em;
+   }
+   &-spe {
+     margin-top: 1em;
+   }
+   &-project {
+     margin-top: 1em;
+   }
+}
+
+.backoffice-list {
+  &-title {
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+}
+
+.backoffice-list-one {
+  &-spe {
+    margin: 0.5em;
+  }
+  &-promo {
+    margin: 0.5em;
+  }
+  &-project {
+    margin: 0.5em;
+  }
+  
+}
+
+.main-backoffice-list-form-input {
+  &-promo,
+  &-spe,
+  &-project {
+    height: 2.3em;
+    text-indent: 15px;
+    padding: 0.8em;
+    background-color: #fffdd8;
+    margin-top: 0.5em;
+    margin-right: 1em;
+    border-radius: 1em;
+    border: none;
+  }
+}
+
+.main-backoffice-list-form-button-validate {
+   margin: 0.2em;
+   margin-left: 1em;
+  font-weight: 700;
+  background-color: #C1272D;
+  padding: 1em;
+  border-radius: 1em;
+  border: none;
+}
+
+.main-backoffice-list-editbutton {
+  margin: auto;
+  color: black;
+  width: 20%;
+  background-color: #fffdd8;
+  border: none;
+  text-align: center;
+  margin: auto;
+  border-radius: 1em;
+  border: none;
+  padding: 1em;
+}
+
+.main-backoffice-list-form-select {
+    height: 2em;
+    text-indent: 15px;
+    background-color: #fffdd8;
+    border: none;
+    margin-top: 0.5em;
+    border-radius: 1em;
+    border: none;
+}
